@@ -4,8 +4,27 @@
   <head>
     <title>Primeira Página</title>
     <meta charset="utf-8">
+
+    <style>
+      body{
+        background: #000000;
+        font-family: Arial, sans-serif;
+        color: #58FA58
+      }
+    </style>
+
+    <script>
+      function escreverNome() {
+        nome.innerHTML = "Spider-Man";
+      }
+
+      window.onload = escreverNome;
+    </script>
+    
   </head>
   <body>
+    <!-- Comentários em HTML -->
     <p>Hello World!</p>
+    <p id="nome"></p>
   </body>
 </html>
